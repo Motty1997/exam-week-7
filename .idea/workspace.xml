@@ -4,35 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54f08131-ffd3-426c-94e5-6e345c2ab199" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/userDetails.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/db/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/db/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/db/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/db/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/db/models/address.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/db/models/credit_card.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/db/models/user_details.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/gql/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/gql/query.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/gql/types/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/gql/types/addrss_type.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/gql/types/credit_card_type.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/gql/types/user_type.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/repository/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/repository/address_rpository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/repository/credit_card_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/repository/user_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/settings/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/settings/config.py" afterDir="false" />
+    <list default="true" id="54f08131-ffd3-426c-94e5-6e345c2ab199" name="Changes" comment="finished most of project">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/db/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/db/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/db/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/db/models/city.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/db/models/country.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/db/models/mission.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/db/models/target.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/db/models/targettype.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/gql/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/gql/mutations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/gql/mutations/mission_mutate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/gql/mutations/mutation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/gql/mutations/target_mutation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/gql/ouery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/gql/types/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/gql/types/city_type.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/gql/types/country_type.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/gql/types/mission_type.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/gql/types/target_type.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/gql/types/target_type_type.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/repository/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/repository/mission_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/repository/target_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/settings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2/settings/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.main (1).executor": "Run",
     "Python.main.executor": "Run",
+    "Python.ouery.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
@@ -72,7 +76,29 @@
       <recent name="C:\Users\motty\PycharmProjects\userDetails\app\gql\types" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="userDetails" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app2/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="userDetails" />
       <option name="ENV_FILES" value="" />
@@ -97,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -117,6 +144,19 @@
       <option name="presentableId" value="Default" />
       <updated>1730272261814</updated>
     </task>
+    <task id="LOCAL‎-00001" summary="finished most of project">
+      <option name="closed" value="true" />
+      <created>1730296925223</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL‎-00001" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1730296925223</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finished most of project" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished most of project" />
   </component>
 </project>
